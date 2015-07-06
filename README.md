@@ -1,6 +1,6 @@
-Here's an angular project I finished recently. It is a simple Reddit clone where users can post links to websites, vote on those links, and comment on them. It was built with Angular, bootstrap, and firebase (along with the angularfire library) as the data store.
+Here's an angular project I was working on sin early 2014.. It is a simple Reddit clone where users can post links to websites, vote on those links, and comment on them. It was built with Angular, bootstrap, and firebase (along with the angularfire library) as the data store.
 
-<a href="http://benjaminmbrown.com/bReddit">CLICK HERE to see the app (regazister and login to utilize functionality)</a>
+<a href="http://benjaminmbrown.com/bReddit">CLICK HERE to see the app (register and login to utilize functionality)</a>
 
 Here's what the firebase data looks like :
 
