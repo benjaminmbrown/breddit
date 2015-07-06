@@ -1,0 +1,14 @@
+
+<div ng-controller="ElectionCtrl">
+<h3>Total User Votes: {{totalVotes}}</h3>
+<h3>Last vote came in for: {{lastVote}}</h3>
+
+	<div ng-repeat="doctor in doctors | orderBy : 'votes' : true" ng-controller="DoctorCtrl">
+		<label>{{doctor.name}}</label>
+		<label>Votes: {{doctor.votes}}</label>
+		<button ng-click="onVote(doctor,true)">Up Vote</button>
+		<button ng-click="onVote(doctor,false)">Down Vote</button>
+	</div>
+</div>
+
+
